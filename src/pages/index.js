@@ -79,19 +79,7 @@ export const pageQuery = graphql`
         }
       }
     }
-    posts: allMarkdownRemark(
-      filter: { fileAbsolutePath: { regex: "/posts/" } }
-      sort: { fields: [frontmatter___date], order: DESC }
-    ) {
-      edges {
-        node {
-          frontmatter {
-            title
-            description
-          }
-        }
-      }
-    }
+
     featured: allMarkdownRemark(
       filter: { fileAbsolutePath: { regex: "/featured/" } }
       sort: { fields: [frontmatter___date], order: DESC }
@@ -115,7 +103,25 @@ export const pageQuery = graphql`
         }
       }
     }
-
+    projects: allMarkdownRemark(
+      filter: {
+        fileAbsolutePath: { regex: "/projects/" }
+        frontmatter: { showInProjects: { ne: false } }
+      }
+      sort: { fields: [frontmatter___date], order: DESC }
+    ) {
+      edges {
+        node {
+          frontmatter {
+            title
+            tech
+            github
+            external
+          }
+          html
+        }
+      }
+    }
     contact: allMarkdownRemark(filter: { fileAbsolutePath: { regex: "/contact/" } }) {
       edges {
         node {
