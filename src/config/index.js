@@ -7,7 +7,7 @@ module.exports = {
   siteUrl: 'https://akhilbharti.com',
   siteLanguage: 'en_US',
   googleAnalyticsID: 'UA-164398686-1',
-  googleVerification: 'ux3SeLvqipB4PI7yltOfN7pnGmpRG03FMpa2McCf8XM',
+  googleVerification: 'dv4K5twlHGDFqIkbK4as0RLD2-m5GfyjGI9NIWCVih4',
   name: 'Akhil Bharti',
   location: 'Bengaluru, India',
   email: 'akhbharti@gmail.com',
