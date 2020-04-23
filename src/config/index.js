@@ -1,38 +1,38 @@
 module.exports = {
-  siteTitle: 'Akhil Bharti | Software Engineer',
+  siteTitle: 'Akhil Bharti | Frontend Developer',
   siteDescription:
-    'Akhil Bharti is a software engineer based in Boston, MA who specializes in developing (and occasionally designing) exceptional, high-quality websites and applications.',
+    'Akhil Bharti is a frontend developer from Bengaluru, India who enjoys buiding interactive websites and applications.',
   siteKeywords:
-    'Akhil Bharti, Brittany, Chiang, bchiang7, software engineer, front-end engineer, web developer, javascript, northeastern',
-  siteUrl: 'https://brittanychiang.com',
+    'Akhil Bharti, Akhil, Bharti, akhbharti, software engineer, front-end engineer, web developer, javascript, Bengaluru, React developer',
+  siteUrl: 'https://akhilbharti.com',
   siteLanguage: 'en_US',
-  googleAnalyticsID: 'UA-45666519-2',
-  googleVerification: 'DCl7VAf9tcz6eD9gb67NfkNnJ1PKRNcg8qQiwpbx9Lk',
+  googleAnalyticsID: 'UA-164398686-1',
+  googleVerification: 'ux3SeLvqipB4PI7yltOfN7pnGmpRG03FMpa2McCf8XM',
   name: 'Akhil Bharti',
-  location: 'Boston, MA',
+  location: 'Bengaluru, India',
   email: 'akhbharti@gmail.com',
   github: 'https://github.com/bchiang7',
-  twitterHandle: '@bchiang7',
+  twitterHandle: '@akhilbhartidev',
   socialMedia: [
     {
       name: 'GitHub',
-      url: 'https://github.com/bchiang7',
+      url: 'https://github.com/akhilbharti',
     },
     {
       name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/bchiang7',
+      url: 'https://www.linkedin.com/in/akhil-bharti-b71516100',
     },
     {
       name: 'Codepen',
-      url: 'https://codepen.io/bchiang7',
+      url: 'https://codepen.io/akhilbharti',
     },
     {
       name: 'Instagram',
-      url: 'https://www.instagram.com/bchiang7',
+      url: 'https://www.instagram.com/akhil_bharti',
     },
     {
       name: 'Twitter',
-      url: 'https://twitter.com/bchiang7',
+      url: 'https://twitter.com/akhilbhartidev',
     },
   ],
 
