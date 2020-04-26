@@ -6,7 +6,7 @@ external: 'https://react-pokemon-5.netlify.app/'
 tech:
   - React
   - Pokemon API
-showInProjects: true
+showInProjects: false
 ---
 
 A fun react pokemon game which draws random pokemon cards for two sides and determine the winner
