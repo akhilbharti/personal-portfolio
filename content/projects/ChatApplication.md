@@ -8,6 +8,7 @@ tech:
   - Node
   - Express
   - MongoDB
+  - EJS
 showInProjects: true
 ---
 
