@@ -70,6 +70,15 @@ module.exports = {
             },
           },
           {
+            resolve: 'gatsby-plugin-use-dark-mode',
+            options: {
+              classNameDark: 'dark-mode',
+              classNameLight: 'light-mode',
+              storageKey: 'darkMode',
+              minify: true,
+            },
+          },
+          {
             // https://www.gatsbyjs.org/packages/gatsby-remark-code-titles/
             resolve: 'gatsby-remark-code-titles',
           }, // IMPORTANT: this must be ahead of other plugins that use code blocks
